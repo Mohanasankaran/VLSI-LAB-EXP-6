@@ -1,8 +1,8 @@
-AIM:
+**AIM:**
 
 To design and simulate the CMOS inverter and observe the DC and transient responses using cadence tool.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 1.Laptop with MobaXterm
 
@@ -22,7 +22,7 @@ APPARATUS REQUIRED:
 
 9.If you right click on the ‘my design lib’ and select properties, you will find that gpdk045 library is attached as techlib to ‘my design lib’.
 
-Creating a schematic cell view:
+**Creating a schematic cell view:**
 
 1.In the CIW or library manager, execute file – new – cell viw.
 
@@ -30,7 +30,7 @@ Creating a schematic cell view:
 
 3.Click ok when done the above setting. A black schematic window for the inverter design appears.
 
-Adding components to schematic:
+**Adding components to schematic:**
 
 1.In the inverter schematic window, click the instance fixed menu icon to display the add instance form.
 
@@ -45,7 +45,7 @@ Adding components to schematic:
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-6/assets/161284142/a711ebc6-4ad0-4baa-9863-b442cff4d2d7)
 
 
-Adding pins to schematic:
+**Adding pins to schematic:**
 
 1.Click the pin fixed menu icon in the schematic window. You can execute create pin or press ‘p’.
 
@@ -65,7 +65,7 @@ Saving the design:
 
 Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
-BUILDING THE INVERTER TEST DESIGN: Creating the inverter test cell view:
+**BUILDING THE INVERTER TEST DESIGN:Creating the inverter test cell view:**
 
 1.In the CIW or library manager, execute file – new – cell view.
 
@@ -86,7 +86,7 @@ BUILDING THE INVERTER TEST DESIGN: Creating the inverter test cell view:
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-6/assets/161284142/f2a09c0a-0554-4915-872b-bba2c6b0758d)
 
 
-ANALOG SIMULATION WITH SPECTRA: Starting the simulation environment:
+**ANALOG SIMULATION WITH SPECTRA: Starting the simulation environment:**
 
 1.In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears. Choosing a simulator:
 
@@ -104,13 +104,13 @@ ANALOG SIMULATION WITH SPECTRA: Starting the simulation environment:
 
 8.To set for DC analysis a. In the analysis section select DC. b. Turn on save DC operating point. c. Turn on the component parameters. d. Double click the select Vpulse source or Type V0 (capital V zero). e. Select the DC voltage in the select window parameter and click in the form start and stop voltages are 0 to 1.8. f. Select the enable button and click apply and then click ok.
 
-Selecting output for plotting:
+**Selecting output for plotting:**
 
 1.Execute the o/p’s to be plotted -select on sschematic in the simulation window.
 
 2.Follow the prompt at the bottom. Click on the o/p net vout input vin of the inverter. Press esc with the cursor after selecting.
 
-Running the simulation:
+**Running the simulation:**
 
 1.Execute the simulation Netlist and run in the simulation window to start the simulation on the icon. This will create the netlist as well as run the simulation.
 
@@ -121,6 +121,7 @@ Running the simulation:
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-6/assets/161284142/52448dfb-94b5-4778-9ec8-a2fd1e407361)
 
 CMOS NAND GATE
+
 NAND SCHEMATIC
 
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-6/assets/161284142/dfcbeca3-cccb-420f-95d3-c298023cfdb7)
@@ -146,5 +147,6 @@ NOR SIMULATION WITH SPECTRA
 
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-6/assets/161284142/b291389b-a60a-40f9-a73b-5453f6d55dcb)
 
-RESULT:
+**RESULT:**
+
 THe design and simulation of the CMOS inverter and the DC and transient responses using cadence tool is successfully observed and verified.
